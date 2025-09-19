@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible & SEO-Friendly HTML5 Web Page</title>
+</head>
+<body>
+  <header>
+    <h1>Accessible & SEO-Friendly Web Page</h1>
+    <p>A demonstration of HTML5, accessibility, and SEO basics.</p>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>This page is built entirely with semantic HTML5. It demonstrates proper heading structure, accessibility best practices, and SEO-friendly markup.</p>
+    </section>
+    <section id="articles" aria-labelledby="articles-heading">
+      <h2 id="articles-heading">Articles</h2>
+
+      <article aria-labelledby="article1-title">
+        <h3 id="article1-title">Why Semantic HTML Matters</h3>
+        <p>Semantic elements like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> help search engines and assistive technologies understand the structure of your page.</p>
+      </article>
+
+      <article aria-labelledby="article2-title">
+        <h3 id="article2-title">Accessibility Benefits</h3>
+        <p>Using landmarks, proper heading hierarchy, and attributes like <code>aria-label</code> improves navigation for users with screen readers or other assistive tools.</p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <address>
+        <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+        <p>Phone: <a href="tel:+123456789">+1 234 567 89</a></p>
+      </address>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Accessible SEO Page. All rights reserved.</p>
+  </footer>
+</body>
+</html>
